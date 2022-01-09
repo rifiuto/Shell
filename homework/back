@@ -1,0 +1,19 @@
+BEGIN{
+	IGNORECASE="1"
+	printf("%-20s|%5s\n", "Word", "Counts")
+}
+{
+	function fushu(word, array){
+		
+	}
+	gsub(",", "")
+	gsub("[.]", "")
+	for(i=1;i<=NF;i++){
+		array[tolower($i)]++
+	}
+}
+END{
+	for(i in array){
+		printf("%-20s|%5d\n", i, array[i]) | "sort -k2 -r"
+	}
+}
