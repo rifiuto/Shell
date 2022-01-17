@@ -7,3 +7,4 @@
 这个目录存放了了一个 shell 的题目，看见同学用 python 实现了（不难），用来练练手 shell，结果图如 result.png
 * awk
 1. 211.awk 除去两边的空格（看见 Python 的 strip 方法的想法）不难
+2. zhenghan.sh 这行代码让我对正则的理解深了一点
