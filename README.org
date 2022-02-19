@@ -8,3 +8,6 @@
 * awk
 1. 211.awk 除去两边的空格（看见 Python 的 strip 方法的想法）不难
 2. zhenghan.sh 这行代码让我对正则的理解深了一点
+* outline.py
+  Use PyPDF2 package to get the toc of the pdf file, and then you can use this to grep.
+
