@@ -16,4 +16,5 @@ Dwm status script
 ** Others
 1. ~install.sh~ install the oh-my-zsh.
 2. ~install-zsh-plugins.sh~ install some plugins for zsh.
-
+* python
+1. =newline_symbol_change.py= change the newline symbol between Linux and Window(Mac now is ~\n~, version greater than ~X~)
